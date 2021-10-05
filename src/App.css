@@ -1,0 +1,87 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 400px;
+  padding: 32px 40px;
+  margin: 0px auto 24px;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+}
+
+/* FORM DESCRIPTION */
+.form-desc {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-title {
+  margin-top: 8px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/* INPUTS */
+.password-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.email-input,
+.password-input {
+  width: 100%;
+  padding: 8px 6px;
+  margin-bottom: 20px;
+  height: 39px;
+  outline: none;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6;
+  border-radius: 3px;
+}
+.email-input:focus,
+.email-input:focus {
+  border-color: #4c9aff;
+}
+.input-wrapper {
+  position: relative;
+  display: block;
+}
+.submit-login-btn {
+  width: 100%;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 3px;
+  background-color: #0052cc;
+  color: #fff;
+  font-weight: 500;
+  padding: 0px 10px;
+  font-family: inherit;
+  transition: background 0.1s ease-out 0s,
+    box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+  cursor: pointer;
+}
+.submit-login-btn:hover {
+  background-color: #0065ff;
+}
+
+/* OTHER LINKS */
+.links-list-cont {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid rgb(213, 216, 222);
+}
+
+.links-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.divider {
+  margin: 0 8px;
+}
+.form-link {
+  color: #0052cc;
+}
+.form-link:hover {
+  text-decoration: underline;
+}
